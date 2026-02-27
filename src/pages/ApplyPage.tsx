@@ -6,6 +6,7 @@ import { FileTextIcon, GraduationCapIcon, CheckCircleIcon, MailIcon, HelpCircleI
 export function ApplyPage() {
   const isRecruitmentOpen = import.meta.env.VITE_RECRUITMENT_OPEN === "true";
   const recruitmentGen = import.meta.env.VITE_RECRUITMENT_GEN;
+  const formUrl = import.meta.env.VITE_FORM_URL;  // ← 이 줄 추가
 
   return (
     <div className="min-h-screen w-full bg-black text-white">
@@ -24,7 +25,7 @@ export function ApplyPage() {
 
           {isRecruitmentOpen ? (
             <a
-              href="https://forms.gle/your-form-link"
+              href={formUrl}
               className="inline-block px-8 py-3 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition-all text-base"
             >
               {recruitmentGen}기 지원하기
