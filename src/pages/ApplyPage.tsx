@@ -84,10 +84,10 @@ export function ApplyPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
   {[
-    { num: "01", title: "서류 모집", period: "3월 4일 ~ 3월 21일", desc: "온라인 지원서 제출 및 검토" },
-    { num: "02", title: "신입생 교육", period: "4월 1일 ~ 4월 30일", desc: "보안 및 프로그래밍 기초 교육" },
-    { num: "03", title: "선발 시험", period: "5월 5일", desc: "교육 후 CTF형식의 시험 평가" },
-    { num: "04", title: "합격자 발표", period: "5월 15일", desc: "메일 및 공지로 안내" },
+    { num: "01", title: "서류 모집", period: "미정", desc: "온라인 지원서 제출 및 검토" },
+    { num: "02", title: "신입생 교육", period: "미정", desc: "보안 및 프로그래밍 기초 교육" },
+    { num: "03", title: "선발 시험", period: "미정", desc: "교육 후 CTF형식의 시험 평가" },
+    { num: "04", title: "합격자 발표", period: "미정", desc: "메일 및 공지로 안내" },
   ].map((step) => (
     <div key={step.num} className="bg-gray-800/50 border border-gray-700 rounded-xl p-8">
       <div className="text-green-400 text-3xl font-bold mb-4">{step.num}</div>
