@@ -84,7 +84,7 @@ export function ApplyPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-6xl mx-auto text-center">
   {[
     { num: "01", title: "서류 모집", period: "3월 3일 ~ 3월 20일", desc: "온라인 지원서 제출 및 검토" },
-    { num: "02", title: "신입생 교육", period: "3월 24일 ~ 5월 7일", desc: "보안 및 프로그래밍 기초 교육" },
+    { num: "02", title: "신입생 교육", period: "3월 24일 ~ 5월 7일 (총 8회)", desc: "Web Security 기초 및 실습" },
     { num: "03", title: "선발 시험", period: "5월 9일", desc: "교육 후 CTF형식의 시험 평가" },
     { num: "04", title: "합격자 발표", period: "5월 중", desc: "메일 및 공지로 안내" },
   ].map((step) => (
