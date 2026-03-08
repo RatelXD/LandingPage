@@ -127,6 +127,15 @@ export function ApplyPage() {
 
           <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-left">
             <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
+              <HelpCircleIcon className="w-5 h-5 text-green-400" /> 시험 기간에도 신입생 교육을 하나요?
+            </h3>
+            <p className="text-gray-400">
+              시험 전 주와 시험 기간에는 신입생 교육을 진행하지 않습니다.
+            </p>
+          </div>
+
+          <div className="bg-gray-900/50 border border-gray-800 rounded-lg p-6 text-left">
+            <h3 className="text-xl font-semibold mb-2 flex items-center gap-2">
               <HelpCircleIcon className="w-5 h-5 text-green-400" /> 지원 결과는 언제 확인할 수 있나요?
             </h3>
             <p className="text-gray-400">
